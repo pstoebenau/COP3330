@@ -34,11 +34,7 @@ public class Main {
 	}
 	
 	static int getInput() {
-		int tmp;
 		Scanner scanner = new Scanner(System.in);
-		
-		tmp = scanner.nextInt();
-		
-		return tmp;
+		return scanner.nextInt();
 	}
 }
