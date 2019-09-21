@@ -1,30 +1,35 @@
 import java.util.Scanner;
+import java.text.*;
 
 public class Main {
 	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		DecimalFormat df = new DecimalFormat("#.##");
 		int choice, weight, height;
 		double bmi;
 		
 		printUI();
 		
-		choice = getInput();
+		choice = scanner.nextInt();
 		
 		printInstructions(choice);
-		weight = getInput();
+		weight = scanner.nextInt();
 		
 		printInstructions1(choice);
-		height = getInput();
+		height = scanner.nextInt();
 		
 		// Spacer
 		System.out.println();
 				
 		bmi = calcBMI(weight, height, choice);
-		System.out.println("Your BMI: " + bmi);
+		System.out.println("Your BMI: " + df.format(bmi));
 		
 		// Spacer
 		System.out.println();
 		
 		printBMICategories();
+		
+		scanner.close();
 	}
 	
 	static void printUI() {
@@ -54,11 +59,6 @@ public class Main {
 		System.out.println("Normal weight:\t18.5–24.9");
 		System.out.println("Overweight:\t25–29.9");
 		System.out.println("Obesity:\t>30");
-	}
-	
-	static int getInput() {
-		Scanner scanner = new Scanner(System.in);
-		return scanner.nextInt();
 	}
 	
 	static double calcBMI(int weight, int height, int unit) {

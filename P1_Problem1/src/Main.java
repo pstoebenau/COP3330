@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
 		int choice, input, value = 0;
 		
 		printUI();
-		choice = getInput();
+		choice = scanner.nextInt();
 		
 		// Extracts last 4 digits from input
 		printInstructions();
-		input = getInput();
+		input = scanner.nextInt();
 		input %= 10000;
 		
 		if (choice == 1)
@@ -20,6 +21,8 @@ public class Main {
 			System.out.println("Invalid function chosen");
 			
 		System.out.println("Value: " + value);
+		
+		scanner.close();
 	}
 	
 	static void printUI() {
@@ -31,10 +34,5 @@ public class Main {
 	
 	static void printInstructions() {
 		System.out.print("Please Enter a 4 digit number: ");
-	}
-	
-	static int getInput() {
-		Scanner scanner = new Scanner(System.in);
-		return scanner.nextInt();
 	}
 }
