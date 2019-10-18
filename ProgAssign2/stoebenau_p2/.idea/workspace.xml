@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3be112a-d11c-4fde-9111-a1338bd22da7" name="Default Changelist" comment="" />
+    <list default="true" id="ac55af44-f66f-4387-81e6-3e5e5afccd79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../stoebenau_p1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stoebenau_p1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +28,9 @@
       </set>
     </option>
   </component>
-  <component name="ProjectId" id="1SNpl5GlrVei5RsY4ZygdlpsOne" />
+  <component name="ProjectId" id="1SOH36utidh0x7FNODOSfurQbNv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,16 +45,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="stoebenau_p1" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="stoebenau_p2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -63,11 +63,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f3be112a-d11c-4fde-9111-a1338bd22da7" name="Default Changelist" comment="" />
-      <created>1571414055148</created>
+      <changelist id="ac55af44-f66f-4387-81e6-3e5e5afccd79" name="Default Changelist" comment="" />
+      <created>1571427519704</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571414055148</updated>
+      <updated>1571427519704</updated>
     </task>
     <servers />
   </component>
