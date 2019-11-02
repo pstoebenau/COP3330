@@ -8,6 +8,6 @@ public class Application {
         String outDir = projectDir + "/unique_words.txt";
 
         dr.remove(dataDir);
-        dr.write(dataDir, outDir);
+        dr.write(outDir);
     }
 }

@@ -34,12 +34,9 @@ public class DuplicateRemover {
         fileWriter.close();
     }
 
-    public void write(String dataFile, String outputFile) throws IOException {
-        File fileIn = new File(dataFile);
+    public void write(String outputFile) throws IOException {
         File fileOut = new File(outputFile);
         FileWriter fileWriter = new FileWriter(fileOut);
-
-        getUniqueStrings(fileIn);
 
         for (int i = 0; i < uniqueWords.size(); i++) {
             String word = uniqueWords.get(i);
